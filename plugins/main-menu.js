@@ -485,14 +485,14 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             hydratedFooterText: wm2, 
             hydratedButtons: [{
             urlButton: {
-               displayText: '𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐆𝐄𝐌𝐏𝐘',
+               displayText: '𝐘𝐎𝐔𝐓𝐔𝐁𝐄',
                url: web
              }
 
            },
              {
              urlButton: {
-               displayText: '𝐆𝐑𝐔𝐏 𝐏𝐄𝐍𝐓𝐀𝐁𝐎𝐓', 
+               displayText: '𝐆𝐑𝐔𝐏 𝐁𝐎𝐓', 
                url: gc
              }
 
