@@ -1,4 +1,4 @@
-const hxz = require("hxz-api")
+const hxz = require("hxz-tiktok")
 let handler = async(m,{text, conn}) => {
 
 let p = await  hxz.ttdownloader(text)
