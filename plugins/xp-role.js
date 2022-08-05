@@ -46,8 +46,9 @@ handler.before = function (m) {
                                                                                                                                                                     : ((user.level >= 200) && (user.level <= 400)) ? 'Older demon lord'
                                                                                                                                                                         : ((user.level >= 405) && (user.level <= 700)) ? 'Great demon lord'
                                                                                                                                                                             : ((user.level >= 700) && (user.level <= 1000)) ? 'Strongest demon lord'
-                                                                                                                                                                                : 'Star king dragon'
-
+                                                                                                                                                                                : ((user.level >= 1000) && (user.level <= 999999)) ? 'Babu sang dewa'
+                                                                                                                                                                                   : ((user .level >= 9999999) && (user.level <= 10000000000)) ? 'true lord the destroyer soul'
+                                                                                                                                                                                      : 'dewa satir'
 
     user.role = role
     return true
